@@ -157,92 +157,93 @@
           </div>
         </div>
 
-        <!-- Video Section with Carousel -->
-        <div class="col-lg-6 col-md-6 col-12 ps-lg-5" data-aos="fade-left">
-          <div
-            id="videoCarousel"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <!-- Carousel Indicators -->
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#videoCarousel"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#videoCarousel"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-            </div>
+ <!-- Video Section with Carousel -->
+<div class="col-lg-6 col-md-6 col-12 ps-lg-5" data-aos="fade-left">
+  <div
+    id="videoCarousel"
+    class="carousel slide"
+    data-bs-ride="carousel"
+    data-bs-interval="5000" <!-- Set autoplay interval to 5 seconds -->
+  >
+    <!-- Carousel Indicators -->
+    <div class="carousel-indicators">
+      <button
+        type="button"
+        data-bs-target="#videoCarousel"
+        data-bs-slide-to="0"
+        class="active"
+        aria-current="true"
+        aria-label="Slide 1"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#videoCarousel"
+        data-bs-slide-to="1"
+        aria-label="Slide 2"
+      ></button>
+    </div>
 
-            <!-- Carousel Inner -->
-            <div class="carousel-inner ratio ratio-16x9">
-              <!-- First Video -->
-              <div class="carousel-item active">
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/eEzD-Y97ges?si=EsRFGLD2NLHPY30w"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>
-              </div>
-              
-              <!-- Second Video -->
-              <div class="carousel-item">
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/MLpWrANjFbI?si=ZFNz7avVCR4rQ4-i"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>
-              </div>
-              
-            </div>
-
-            <!-- Carousel Controls -->
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#videoCarousel"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#videoCarousel"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
+    <!-- Carousel Inner -->
+    <div class="carousel-inner ratio ratio-16x9">
+      <!-- First Video -->
+      <div class="carousel-item active">
+        <video
+          class="d-block w-100"
+          autoplay
+          muted
+          loop
+          playsinline
+          controls
+        >
+          <source src="videos\Placeholder Video_360P.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
-    </section>
+      
+      <!-- Second Video -->
+      <div class="carousel-item">
+        <video
+          class="d-block w-100"
+          autoplay
+          muted
+          loop
+          playsinline
+          controls
+        >
+          <source src="videos\Elementor video placeholder_720pFH.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+
+    <!-- Carousel Controls -->
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#videoCarousel"
+      data-bs-slide="prev"
+    >
+      <span
+        class="carousel-control-prev-icon"
+        aria-hidden="true"
+      ></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#videoCarousel"
+      data-bs-slide="next"
+    >
+      <span
+        class="carousel-control-next-icon"
+        aria-hidden="true"
+      ></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
 
     <!-- video end -->
 
