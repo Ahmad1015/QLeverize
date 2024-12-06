@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      name="viewport"
+    />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="./css/style.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+
+    <link
+      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      referrerpolicy="no-referrer"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-color py-4 pt-lg-5">
+      <div class="container">
+        <a class="navbar-brand text-white fw-bold" href="#"
+          >QLeverize - by the makers of QLever
+        </a>
+        <button
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="navbar-toggler"
+          data-bs-target="#navbarSupportedContent"
+          data-bs-toggle="collapse"
+          type="button"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#online_services">Why QLever</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Licensing</a>
+            </li>
+            <li class="nav-item">
+              <a aria-current="page" class="nav-link active" href="#"
+                >Other Services</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--hero section-->
+
+    <section class="bg-main bg-color hero-section">
+      <div class="container">
+        <div
+          class="row mb-5 align-items-center justify-content-center text-center"
+        >
+          <div class="col-lg-8">
+            <h1
+              class="text-capitalize fw-bolder text-white"
+              data-aos="fade-right"
+              data-aos-duration="800"
+            >
+              QLeverize Your Data
+            </h1>
+            <p
+              class="mt-3 mb-5 para-width text-light"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              The New Era of Knowledge Graphs Fast, Scalable, Secure, and Easy
+              to Use Everywhere
+            </p>
+
+            <div
+              class="text-center"
+              data-aos="zoom-in"
+              data-aos-duration="1200"
+            >
+              <button
+                class="btn custom-btn px-5 py-2"
+                data-bs-offset="0,5"
+                data-bs-placement="top"
+                data-bs-title="Get Best Services"
+                data-bs-toggle="tooltip"
+              >
+                Contact Us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SVG Shape -->
+      <div class="custom-shape-divider-bottom-1684208460">
+        <svg
+          data-name="Layer 1"
+          preserveAspectRatio="none"
+          viewBox="0 0 1200 120"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="shape-fill"
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <!--hero section end -->
+    <!-- video part -->
+    <section class="container py-5">
+      <div class="row align-items-center justify-content-center pt-5">
+        <!-- Text Section -->
+        <div class="col-lg-6 col-md-6 col-12 pe-lg-5" data-aos="fade-right">
+          <div class="text-container common-title">
+            <h2 class="mb-3 common-heading">QLever</h2>
+            <p class="mb-4">
+              QLever is a powerful open-source graph database and RDF
+              triplestore that allows you to load and query hundreds of billions
+              of facts on a single commodity machine, delivering unprecedented
+              performance.
+            </p>
+            <p class="mb-4">
+              QLever’s SPARQL frontend offers intuitive autocompletion and
+              real-time term lookup, making it easier than ever to work with
+              knowledge graphs.
+            </p>
+            <p>
+              Explore our public SPARQL endpoints and see the difference for
+              yourself. QLeverize offers commercial support for organizations
+              seeking faster implementations, advanced scalability, and private
+              assistance tailored to their needs.
+            </p>
+          </div>
+        </div>
+
+        <!-- Video Section with Carousel -->
+        <div class="col-lg-6 col-md-6 col-12 ps-lg-5" data-aos="fade-left">
+          <div
+            id="videoCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#videoCarousel"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#videoCarousel"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+            </div>
+
+            <!-- Carousel Inner -->
+            <div class="carousel-inner ratio ratio-16x9">
+              <!-- First Video -->
+              <div class="carousel-item active">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/eEzD-Y97ges?si=EsRFGLD2NLHPY30w"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              
+              <!-- Second Video -->
+              <div class="carousel-item">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/MLpWrANjFbI?si=ZFNz7avVCR4rQ4-i"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              
+            </div>
+
+            <!-- Carousel Controls -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#videoCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#videoCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- video end -->
+
+    <!-- why choose us start -->
+    <section id="why-qlever" class="common-section blog-section">
+      <div class="common-heading container text-center common-title">
+        <h2 class="text-white">Why Choose QLever?</h2>
+
+        <hr class="w-25 mx-auto" />
+      </div>
+
+      <div class="container my-5">
+        <div class="row g-5">
+          <!-- Card 1 -->
+          <div
+            class="col-lg-4 col-md-6 col-12"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-clock fa-2x mb-3"></i>
+                <h5 class="card-title">Unmatched Speed and Efficiency</h5>
+                <p class="card-text">
+                  QLever delivers fast query performance, handling smaller
+                  queries in milliseconds and completing complex ones on massive
+                  datasets in seconds.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div
+            class="col-lg-4 col-md-6 col-12"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-expand-arrows-alt fa-2x mb-3"></i>
+                <h5 class="card-title">Effortless Scalability</h5>
+                <p class="card-text">
+                  Whether working with millions or billions of triples, QLever
+                  scales seamlessly, managing large datasets with ease.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div
+            class="col-lg-4 col-md-6 col-12"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-dollar-sign fa-2x mb-3"></i>
+                <h5 class="card-title">Cost-Effective on Commodity Hardware</h5>
+                <p class="card-text">
+                  Save on hardware and cloud costs with QLever’s efficient
+                  design, which performs exceptionally well without clusters or
+                  specialized setups.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div
+            class="col-lg-4 col-md-6 col-12"
+            data-aos="fade-up"
+            data-aos-duration="1400"
+          >
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-trophy fa-2x mb-3"></i>
+                <h5 class="card-title">Proven Track Record</h5>
+                <p class="card-text">
+                  Trusted by global projects like Wikidata, UniProt, PubChem,
+                  OpenStreetMap, and Dblp.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 5 -->
+          <div
+            class="col-lg-4 col-md-6 col-12"
+            data-aos="fade-up"
+            data-aos-duration="1600"
+          >
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-cog fa-2x mb-3"></i>
+                <h5 class="card-title">Comprehensive Features</h5>
+                <p class="card-text">
+                  Full SPARQL 1.1 support, GeoSPARQL for spatial queries, and
+                  integrated full-text search make QLever a powerful choice.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div
+            class="col-lg-4 col-md-6 col-12"
+            data-aos="fade-up"
+            data-aos-duration="1800"
+          >
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-lock fa-2x mb-3"></i>
+                <h5 class="card-title">Open-Source with Commercial Options</h5>
+                <p class="card-text">
+                  While QLever is fully open-source, we offer commercial
+                  licenses for high availability, scaling, private issue
+                  tracking, and premium support.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- why chose end  -->
+
+    <!--service section-->
+
+    <section class="services-section">
+      <div class="container text-center common-title fw-bold">
+        <h2 class="common-heading">
+          Licensing and Support <br />
+          Options
+        </h2>
+        <hr class="w-25 mx-auto" />
+      </div>
+
+      <div class="container mt-5">
+        <div class="row g-5">
+          <div class="col-xxl-4 col-lg-4 col-12">
+            <div class="card-box rounded-2 p-5 text-center">
+              <img
+                alt="GIF Image"
+                class="img-fluid"
+                src="./images/link.gif"
+                width="200px"
+              />
+
+              <h5 class="my-3 fw-normal">Free (Open Source)</h5>
+              <p class="pe-3 mb-5 justify-content-center text-justify">
+                Fully feature-complete and free to use. Community support
+                available via GitHub for bug reports and general advice. Note:
+                No assistance is provided for query optimization, profiler
+                analysis, or internal system debugging for non-open-data
+                datasets.
+              </p>
+
+              <div class="d-flex justify-content-center align-items-center">
+                <a
+                  class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3"
+                  href="/service.html"
+                >
+                  <i class="fa-solid fa-arrow-right"> </i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-4 col-lg-4 col-12">
+            <div class="card-box rounded-2 p-5 text-center shadow">
+              <img
+                alt="GIF Image"
+                class="img-fluid"
+                src="./images/speaker.gif"
+                width="200px"
+              />
+
+              <h5 class="my-3 fw-normal">Standard Support</h5>
+              <p class="pe-3 mb-5">
+                Perfect for organizations starting with QLever or expanding
+                datasets and query demands. Ideal for moderate workloads with
+                growing scalability needs. Support: Basic or priority support,
+                private issue tracking, and quality-assured binaries.
+              </p>
+              <div class="d-flex justify-content-center align-items-center">
+                <a
+                  class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3"
+                  href="/service.html"
+                >
+                  <i class="fa-solid fa-arrow-right"> </i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-4 col-lg-4 col-12">
+            <div class="card-box rounded-2 p-5 text-center">
+              <img
+                alt="GIF Image"
+                class="img-fluid"
+                src="./images/seo.gif"
+                width="200px"
+              />
+              <h5 class="my-3 fw-normal">Enterprise Support</h5>
+              <p class="pe-3 mb-5">
+                Perfect for large-scale knowledge graphs requiring continuous
+                response times and extensive query capacity. Support: Priority
+                support, priority feature requests, private issue tracking and
+                quality-assured binaries.
+              </p>
+              <div class="d-flex justify-content-center align-items-center">
+                <a
+                  class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3"
+                  href="/service.html"
+                >
+                  <i class="fa-solid fa-arrow-right"> </i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center w-100">
+        <button
+          class="btn btn-primary px-5 py-2"
+          style="background-color: #1b4332; color: #fff; text-decoration: none"
+          data-bs-offset="0,5"
+          data-bs-placement="top"
+          data-bs-title="Get Best Services"
+          data-bs-toggle="tooltip"
+        >
+          Contact us today to receive a detailed price sheet
+        </button>
+      </div>
+    </section>
+
+    <!--service section-->
+
+    <section class="more-info-section bg-color">
+      <section class="container">
+        <div class="row"></div>
+      </section>
+      <!-- why choose us -->
+      <section id="onfocus" class="onfocus section dark-background">
+        <div class="container-fluid p-0" data-aos="fade-up">
+          <section class="common-section business-section" id="online_services">
+            <div
+              class="container text-center fw-bold common-title"
+              data-aos="fade-down"
+            >
+              <h2 class="common-heading text-white">Other Services</h2>
+              <p class="text-white">
+                At QLeverize, we are dedicated to helping our clients tailor
+                QLever to their unique needs. Whether you're working with
+                small-scale deployments or large-scale knowledge graphs, our
+                expertise allows us to fast-track your implementation and ensure
+                seamless integration into your workflows, so you can achieve
+                exceptional results more efficiently.
+              </p>
+              <hr class="w-25 mx-auto" />
+            </div>
+
+            <div class="container">
+              <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-xl-6 col-md-12">
+                  <div
+                    class="card-glass d-flex flex-column align-items-center justify-content-center p-4 shadow"
+                    data-aos="fade-right"
+                  >
+                    <i class="bi bi-cloud mb-3 icon-style"></i>
+                    <h5 class="mb-3 fw-bolder text-white text-center">
+                      Infrastructure Options
+                    </h5>
+                    <p class="text-center text-light">
+                      Single-Server Setup: Cost-effective solution for small to
+                      medium datasets. High Availability (HA): Ensures
+                      continuous operation with failover capability. Large-Scale
+                      Deployments: Multi-machine setup for maximum availability
+                      and throughput.
+                    </p>
+                  </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-xl-6 col-md-12">
+                  <div
+                    class="card-glass d-flex flex-column align-items-center justify-content-center p-4 shadow"
+                    data-aos="fade-left"
+                  >
+                    <i class="bi bi-shield-check mb-3 icon-style"></i>
+                    <h5 class="mb-3 fw-bolder text-white text-center">
+                      Service Level Agreements (SLAs)
+                    </h5>
+                    <p class="text-center text-light">
+                      Customizable SLAs tailored to your operational needs,
+                      including guaranteed response times, uptime commitments,
+                      and 24/7 critical support. Contact us to develop an SLA
+                      plan aligned with your requirements and budget.
+                    </p>
+                  </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-xl-6 col-md-12">
+                  <div
+                    class="card-glass d-flex flex-column align-items-center justify-content-center p-4 shadow"
+                    data-aos="fade-right"
+                  >
+                    <i class="bi bi-gear mb-3 icon-style"></i>
+                    <h5 class="mb-3 fw-bolder text-white text-center">
+                      QLever as a Managed Service
+                    </h5>
+                    <p class="text-center text-light">
+                      Fully managed service hosted on major cloud platforms.
+                      Deploy QLever tailored to your needs or pre-loaded with
+                      datasets like UniProt, PubChem, Wikidata, and
+                      OpenStreetMap. No in-house infrastructure needed.
+                    </p>
+                  </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col-xl-6 col-md-12">
+                  <div
+                    class="card-glass d-flex flex-column align-items-center justify-content-center p-4 shadow"
+                    data-aos="fade-left"
+                  >
+                    <i class="bi bi-cpu mb-3 icon-style"></i>
+                    <h5 class="mb-3 fw-bolder text-white text-center">
+                      Embedded Environments
+                    </h5>
+                    <p class="text-center text-light">
+                      Optimized builds for memory and CPU efficiency, ideal for
+                      automotive, medical devices, and other regulated
+                      industries. Supports certifications and regulatory
+                      standards.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </section>
+
+    <!--service section end -->
+
+    <!-- term section start  -->
+    <section
+      id="team"
+      class="py-5 position-relative"
+      style="background-color: #e6f4e9; overflow: hidden"
+    >
+      <!-- Background Design -->
+      <div
+        class="position-absolute"
+        style="
+          top: -50px;
+          left: -50px;
+          width: 200px;
+          height: 200px;
+          background: rgba(0, 200, 0, 0.1);
+          border-radius: 50%;
+        "
+      ></div>
+      <div
+        class="position-absolute"
+        style="
+          bottom: -50px;
+          right: -50px;
+          width: 300px;
+          height: 300px;
+          background: rgba(0, 200, 0, 0.2);
+          border-radius: 50%;
+        "
+      ></div>
+
+      <div class="container">
+        <!-- Section Title -->
+        <h2 class="text-center mb-4" data-aos="fade-up">OUR PERFECT TEAM</h2>
+
+        <!-- Row 1 -->
+        <div class="row align-items-center g-4">
+          <div
+            class="col-lg-6 d-flex align-items-center"
+            data-aos="fade-right"
+            data-aos-delay="100"
+          >
+            <img
+              src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
+              alt="Jeffrey Brown"
+              class="rounded-circle team-img"
+            />
+            <div class="ms-4">
+              <h5 class="text-dark mb-1">Jeffrey Brown</h5>
+              <p class="text-danger mb-1">Creative Leader</p>
+              <p class="text-muted">
+                Sample text. Click to select the <br />
+                text box. Click again or click <br />to start editing the text.
+              </p>
+              <div class="social-links">
+                <a href="#" class="text-success mx-2"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" class="text-success mx-2"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="text-success mx-2"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-6 d-flex align-items-center"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <img
+              src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg"
+              alt="Ann Richmond"
+              class="rounded-circle team-img"
+            />
+            <div class="ms-4">
+              <h5 class="text-dark mb-1">Ann Richmond</h5>
+              <p class="text-danger mb-1">Manager</p>
+              <p class="text-muted">
+                Sample text. Click to select the <br />
+                text box. Click again or click <br />to start editing the text.
+              </p>
+              <div class="social-links">
+                <a href="#" class="text-success mx-2"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" class="text-success mx-2"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="text-success mx-2"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="row align-items-center g-4 mt-4">
+          <div
+            class="col-lg-6 d-flex align-items-center"
+            data-aos="fade-right"
+            data-aos-delay="100"
+          >
+            <img
+              src="https://img.freepik.com/free-photo/beautifull-caucasian-woman-with-curly-hair-smiles-isolated_132075-7609.jpg"
+              alt="Alex Grinfield"
+              class="rounded-circle team-img"
+            />
+            <div class="ms-4">
+              <h5 class="text-dark mb-1">Alex Grinfield</h5>
+              <p class="text-danger mb-1">Programming Guru</p>
+              <p class="text-muted">
+                Sample text. Click to select the <br />
+                text box. Click again or click <br />to start editing the text.
+              </p>
+              <div class="social-links">
+                <a href="#" class="text-success mx-2"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" class="text-success mx-2"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="text-success mx-2"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-6 d-flex align-items-center"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <img
+              src="https://img.freepik.com/free-photo/portrait-good-looking-smiling-young-asian-female-student-went-abroad-study-see-world-grinning-joyfully-standing-casual-relaxed-pose-express-positivity_176420-41843.jpg"
+              alt="Roxie Swanson"
+              class="rounded-circle team-img"
+            />
+            <div class="ms-4">
+              <h5 class="text-dark mb-1">Roxie Swanson</h5>
+              <p class="text-danger mb-1">Sales Manager</p>
+              <p class="text-muted">
+                Sample text. Click to select the <br />
+                text box. Click again or click <br />to start editing the text.
+              </p>
+              <div class="social-links">
+                <a href="#" class="text-success mx-2"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" class="text-success mx-2"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="text-success mx-2"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Button -->
+        <div class="mt-5 text-center">
+          <a href="#" class="btn btn-outline-dark">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- term section end  -->
+
+    <!-- contact form  -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="row align-items-center fade-in">
+          <!-- Contact Info -->
+          <div class="col-md-6 mb-4">
+            <h2 class="fw-bold" style="color: #168f0b; margin-bottom: 20px">
+              Contact Us
+            </h2>
+            <p class="mb-4" style="line-height: 1.6">
+              For more information about QLever, licensing, infrastructure
+              options, managed services, or tailored solutions, please reach out
+              to us.
+            </p>
+            <div class="contact-info">
+              <p class="mb-3">
+                <i class="fas fa-map-marker-alt"></i>
+                <span
+                  >Unit 8 Mandale South Street, BD21 1DB, Keighley,
+                  Bradford</span
+                >
+              </p>
+              <p class="mb-3">
+                <i class="fas fa-envelope"></i>
+                <a
+                  href="mailto:info@qleverize.com"
+                  class="text-dark text-decoration-none"
+                >
+                  info@qleverize.com
+                </a>
+              </p>
+              <p class="mb-3">
+                <i class="fas fa-phone-alt"></i>
+                <a
+                  href="tel:099939439493"
+                  class="text-dark text-decoration-none"
+                >
+                  099939439493
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="col-md-6">
+            <div class="contact-card">
+              <h3 class="fw-bold mb-4" style="color: #168f0b">
+                Have Questions?
+              </h3>
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Enter your name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Enter your email"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Your Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="4"
+                    placeholder="Enter your message"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-custom w-100">
+                  Send Request
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact form end  -->
+
+    <!-- footer start  -->
+    <!-- Footer -->
+    <footer class="footer text-white py-5">
+      <div class="container">
+        <div class="row">
+          <!-- Contact Us Section -->
+          <div class="col-md-12 text-center mb-4">
+            <h4 class="fw-bold">Contact Us</h4>
+            <p>
+              For more information about QLever, licensing, infrastructure
+              options, managed services, or tailored solutions, please reach out
+              to us.
+            </p>
+            <a
+              href="mailto:info@qleverize.com?subject=Inquiry%20about%20QLever%20Services"
+              class="btn btn-light px-4 py-2"
+              >Email Us</a
+            >
+          </div>
+
+          <!-- Footer Info -->
+          <div class="col-md-12 text-center mt-4">
+            <p class="mb-0">&copy; 2024 QLeverize</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--footer sectoin ends -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
+    </script>
+  </body>
+</html>
